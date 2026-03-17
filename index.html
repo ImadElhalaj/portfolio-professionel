@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mon Portfolio - Imad ELHALLAJ</title>
+  
+  <!-- Swiper CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+  
+  <!-- Fonts et icônes -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&family=Sacramento&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  
+  <!-- Votre CSS principal -->
+  <link rel="stylesheet" href="style/style.css">
+</head>
+<body>
+  <!-- Theme Toggle -->
+  <div class="theme-toggle" id="theme-toggle">🌙</div>
+  
+  <!-- Color Settings -->
+  <div class="color-settings" id="color-settings">
+    <i class="fas fa-cog"></i>
+    <div class="color-options">
+      <span class="color-circle" data-color="#4f46e5"></span>
+      <span class="color-circle" data-color="#e11d48"></span>
+      <span class="color-circle" data-color="#10b981"></span>
+      <span class="color-circle" data-color="#f97316"></span>
+    </div>
+  </div>
+
+  <!-- Sidebar Navigation -->
+  <nav class="sidebar">
+    <div class="logo">Imad elhallaj</div>
+    <ul>
+      <li><a href="#accueil" class="active"><i class="fas fa-home"></i> Home</a></li>
+      <li><a href="#apropos"><i class="fas fa-user"></i> About</a></li>
+      <li><a href="#skills"><i class="fas fa-cogs"></i> Services</a></li>
+      <li><a href="#projet"><i class="fas fa-briefcase"></i> Portfolio</a></li>
+      <li><a href="#contact"><i class="fas fa-envelope"></i> Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- Main Content -->
+  <main>
+    <!-- Accueil Section -->
+    <section id="accueil" class="section accueil">
+      <div class="intro">
+        <h1>Hello, my name is <span class="name">Imad Elhallaj</span></h1>
+        <h2>I'm a <span class="typed-text"></span><span class="cursor">|</span></h2>
+        <p>I'm a web Designer with extensive experience for over 10 years. My expertise is to create and website design, graphic design, and many more...</p>
+        <div class="btna">
+          <a href="#apropos" class="btn">More About Me</a>
+          <a href="img/Design sans titre (1).pdf" class="btn" download="CV_ELHALLAJ_IMAD.pdf">Télécharger le CV</a>
+        </div>
+      </div>
+      <div class="photo">
+        <img src="img/IMG-20240914-WA0007.jpg" alt="Portrait">
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about" id="apropos">
+      <div class="about-container">
+        <div class="about-image">
+          <img src="img/IMG-20240914-WA0007.jpg" alt="À propos de moi">
+        </div>
+        <div class="about-content">
+          <h2>À propos de moi</h2>
+          <h3>Développeur Web Passionné</h3>
+          <p>
+            Fort de plus de 10 ans d'expérience dans le développement web,<br> 
+            je conçois des sites modernes, responsives et élégants.<br>
+            Mon objectif est de créer des interfaces à la fois performantes,<br> 
+            intuitives et esthétiques.
+          </p>
+          <p>
+            Que ce soit pour un portfolio, un site vitrine ou une application web,<br> 
+            j'apporte des solutions créatives avec du code propre et efficace.<br>
+            Toujours curieux, je cherche à me dépasser à chaque projet.
+          </p>
+          <a href="#contact" class="btn">Travaillons ensemble</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section class="skills" id="skills">
+      <h2 class="section-title">Mes Compétences</h2>
+      <div class="skills-container">
+        <div class="skill-card">
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt="HTML5">
+          <h3>HTML5</h3>
+        </div>
+        <div class="skill-card">
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" alt="CSS3">
+          <h3>CSS3</h3>
+        </div>
+        <div class="skill-card">
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt="JavaScript">
+          <h3>JavaScript</h3>
+        </div>
+        <div class="skill-card">
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" alt="Python">
+          <h3>Python</h3>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projets Section avec Swiper -->
+    <section id="projet">
+      <div class="section">
+        <div class="boxed">
+          <h2 class="section-title">Mes realisations</h2>
+          
+          <!-- Slider Swiper -->
+          <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide realisations">
+                <a href="/" target="_blank">
+                  <img title="SITE DE LOCATION" src="img/1.png" alt="Site de location">
+                  <h3>SITE DE LOCATION</h3>
+                </a>
+              </div>
+              <div class="swiper-slide realisations">
+                <a href="https://imadelhalaj.github.io/xo_game/" target="_blank">
+                  <img title="xo_game" src="img/2.png" alt="XO Game">
+                  <h3>X-O GAME JS</h3>
+                </a>
+              </div>
+              <div class="swiper-slide realisations">
+                <a href="/" target="_blank">
+                  <img title="login page js" src="img/3.png" alt="Login Page JS">
+                  <h3>LOGIN PAGE JS</h3>
+                </a>
+              </div>
+              <div class="swiper-slide realisations">
+                <a href="/" target="_blank">
+                  <img title="login page simple" src="img/4.png" alt="Login simple">
+                  <h3>LOGIN PAGE SIMPLE</h3>
+                </a>
+              </div>
+              <div class="swiper-slide realisations">
+                <a href="/" target="_blank">
+                  <img title="login page animé" src="img/5.png" alt="Login animé">
+                  <h3>LOGIN PAGE ANIMÉ</h3>
+                </a>
+              </div>
+              <div class="swiper-slide realisations">
+                <a href="/" target="_blank">
+                  <img title="cronometre" src="img/6.png" alt="Chrono">
+                  <h3>CRONO</h3>
+                </a>
+              </div>
+              <div class="swiper-slide realisations">
+                <a href="/" target="_blank">
+                  <img title="atrapper les pommes" src="img/7.png" alt="Jeu Python">
+                  <h3>JEU PYTHON</h3>
+                </a>
+              </div>
+              <div class="swiper-slide realisations">
+                <a href="/" target="_blank">
+                  <img title="commbat 2p" src="img/8.png" alt="Combat 2D">
+                  <h3>COMBAT 2P 2D PYTHON</h3>
+                </a>
+              </div>
+              <div class="swiper-slide realisations">
+                <a href="/" target="_blank">
+                  <img title="Runner" src="img/9.jpg" alt="Runner Python">
+                  <h3>RUNNER PYTHON</h3>
+                </a>
+              </div>
+              <div class="swiper-slide realisations">
+                <a href="/" target="_blank">
+                  <img title="calculatrice" src="img/0.png" alt="Calculatrice">
+                  <h3>CALCULATRICE PYTHON</h3>
+                </a>
+              </div>
+              <div class="swiper-slide realisations">
+                <a href="/" target="_blank">
+                  <img title="qr_code" src="img/10.png" alt="QR Code">
+                  <h3>QR_CODE</h3>
+                </a>
+              </div>
+              <div class="swiper-slide realisations">
+                <a href="/" target="_blank">
+                  <img title="rammasse les pomme finger" src="img/11.png" alt="Main contrôle">
+                  <h3>EVADER CONTROLE AVEC MAIN</h3>
+                </a>
+              </div>
+            </div>
+            
+            <!-- Navigation Swiper -->
+            <div class="swiper-pagination"></div>
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section-contact">
+      <div class="container-contact">
+        <h2 class="section-title">Contactez-moi</h2>
+        <p class="section-description">
+          Une opportunité ? Une collaboration ? Un projet ? N'hésitez pas à me contacter via ce formulaire ou mes réseaux ci-dessous.
+        </p>
+
+        <div class="contact-content">
+          <form class="contact-form">
+            <input type="text" placeholder="Votre nom" required>
+            <input type="email" placeholder="Votre adresse e-mail" required>
+            <textarea placeholder="Votre message" required></textarea>
+            <button type="submit" class="btn-contact">Envoyer le message</button>
+          </form>
+
+          <div class="contact-infos">
+            <h3>Informations</h3>
+            <p><i class="fas fa-envelope"></i> imadelhallaj@gmail.com</p>
+            <p><i class="fas fa-phone"></i> +212 6 88 99 64 63</p>
+            <p><i class="fas fa-map-marker-alt"></i> Casablanca, Maroc</p>
+
+            <div class="social-links">
+              <a href="https://www.linkedin.com/in/elhallaj-imad-61b055341/" target="_blank"><i class="fab fa-linkedin"></i></a>
+              <a href="https://github.com/ImadElhalaj" target="_blank"><i class="fab fa-github"></i></a>
+              <a href="https://www.instagram.com/dev_elopperservices/" target="_blank"><i class="fab fa-instagram"></i></a>
+              <a href="#" target="_blank"><i class="fab fa-facebook"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer>
+    <div class="copyright">
+      &copy; 2025 Portfolio Imad ELHALLAJ. Tous droits réservés.
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  <script src="js/script.js"></script>
+</body>
+</html>
