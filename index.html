@@ -14,6 +14,10 @@
   
   <!-- Votre CSS principal -->
   <link rel="stylesheet" href="style/style.css">
+   <!-- Votre CSS whtsap -->
+    <script type="text/javascript" src="jquery-3.3.1.min.js"></script>
+<script type="text/javascript" src="floating-wpp.min.js"></script>
+<link rel="stylesheet" href="floating-wpp.min.css">
 </head>
 <body>
   <!-- Theme Toggle -->
@@ -52,7 +56,7 @@
         <p>I'm a web Designer with extensive experience for over 10 years. My expertise is to create and website design, graphic design, and many more...</p>
         <div class="btna">
           <a href="#apropos" class="btn">More About Me</a>
-          <a href="img/Design sans titre (3).pdf" class="btn" download="CV_ELHALLAJ_IMAD.pdf">Télécharger le CV</a>
+          <a href="img/elhallaj.pdf" class="btn" download="CV_ELHALLAJ_IMAD.pdf">Télécharger le CV</a>
         </div>
       </div>
       <div class="photo">
@@ -129,6 +133,18 @@
           <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-original.svg" alt="Python">
           <h3>Tailwind-css</h3>
         </div>
+        <div class="skill-card">
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vuejs/vuejs-original.svg" alt="Vue.js">
+  <h3>Vue.js</h3>
+</div>
+<div class="skill-card">
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/inertiajs/inertiajs-original.svg" alt="Inertia.js">
+  <h3>Inertia.js</h3>
+</div>
+<div class="skill-card">
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" alt="MySQL">
+  <h3>MySQL</h3>
+</div>
     </section>
 
     <!-- Projets Section avec Swiper -->
@@ -267,5 +283,19 @@
   <!-- Scripts -->
   <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
   <script src="js/script.js"></script>
+
+  <div id="myDiv" ></div>
 </body>
+<script type="text/javascript">
+  $(function () {
+    $('#myDiv').floatingWhatsApp({
+      phone: '0688996463',
+      showPopup: 'True',
+      popupMessage: "bonjour recruteur merci de me contacter" ,
+      headertilte: "whatsapp chat",
+      message: "great work",
+      position: 'right'
+    });
+  });
+</script>
 </html>
