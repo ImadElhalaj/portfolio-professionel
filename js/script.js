@@ -10,7 +10,7 @@ if (toggle) {
 // Effet dactylo
 const typedText = document.querySelector('.typed-text');
 const cursor = document.querySelector('.cursor');
-const words = ['Web Developer', 'UI/UX Designer', 'Frontend Expert'];
+const words = ['Web Developer', 'UI/UX Designer', 'Frontend Developer', 'Backend Developer', 'Full Stack Developer'];
 let wordIndex = 0;
 let charIndex = 0;
 let typing = true;
